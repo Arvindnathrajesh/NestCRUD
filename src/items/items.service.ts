@@ -9,6 +9,7 @@ export class ItemsService {
 
   async findAll(): Promise<Item[]> {
     return await this.itemModel.find();
+    let a=1
   }
 
   async findOne(id: string): Promise<Item> {
